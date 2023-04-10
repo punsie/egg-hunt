@@ -17,9 +17,8 @@ First you have to modify all variables to suit your needs in configuration.py. <
 
 *The code assumes you have some images to go with the Egg Hunt event: <br />
 Create a folder called assets and add egg_red.png, egg_blue.png, egg_yellow.png, egg_grey.png, egg_purple.png, egg_green.pmg <br />
-You also need an announcement image egghunt_announcement_image.png
-*
+You also need an announcement image egghunt_announcement_image.png.* <br /> <br />
 
-Participants have to react to the initial announcement message. After every reaction by default there is another 60 seconds cooldown while the announcement message waits for others to join by reacting to the message. You can modify the timeout_after_someone_reacts variable.  <br />
+Participants have to react to the initial announcement message. After every reaction by default there is another 60 seconds cooldown while the announcement message waits for others to join by reacting to the message. You can modify the timeout_after_someone_reacts variable.  <br /> <br />
 
 Every participants is inserted into a dictionary called eggs. A participant has to be the first to react to the Egg emoji on the egg messaes (after the bot) in order to claim an egg point. <br />
