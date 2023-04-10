@@ -21,4 +21,4 @@ You also need an announcement image egghunt_announcement_image.png.* <br /> <br 
 
 Participants have to react to the initial announcement message. After every reaction by default there is another 60 seconds cooldown while the announcement message waits for others to join by reacting to the message. You can modify the timeout_after_someone_reacts variable.  <br /> <br />
 
-Every participant is inserted into a dictionary called eggs. A participant has to be the first to react to the Egg emoji on the egg messaes (after the bot) in order to claim an egg point. <br />
+Every participant is inserted into a dictionary called eggs. A participant has to be the first to react to the Egg emoji on the egg messages (after the bot) in order to claim an egg point. <br />
