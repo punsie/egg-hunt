@@ -12,6 +12,8 @@ discord_server_id = 523523523523352
 
 DISCORD_TOKEN = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 
+egg_hunt_bot_id = 124214521521
+
 total_egg_hunt_rounds = 25
 
 initial_timeout_announcement = 300
