@@ -17,6 +17,7 @@ First you have to modify all variables to suit your needs in configuration.py. <
 * egg_hunt_admin is the ID of the discord member who can run the command <br />
 * DISCORD_TOKEN <br />
 * announcement_channel is the channel from where you will run the command <br />
+* egg_hunt_bot_id - the member ID for the bot (exclude the bot from reaction counts)
 * channel_id_1, channel_id_2, channel_id_3, channel_id_4 - channel IDS where the bot will post eggs
 
 *The code assumes you have some images to go with the Egg Hunt event: <br />
