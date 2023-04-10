@@ -16,7 +16,7 @@ First you have to modify all variables to suit your needs in configuration.py. <
 * channel_id_1, channel_id_2, channel_id_3, channel_id_4 - channel IDS where the bot will post eggs
 
 *The code assumes you have some images to go with the Egg Hunt event: <br />
-Create a folder called assets and add egg_red.png, egg_blue.png, egg_yellow.png, egg_grey.png, egg_purple.png, egg_green.pmg <br />
+Create a folder called assets and add egg_red.png, egg_blue.png, egg_yellow.png, egg_grey.png, egg_purple.png, egg_green.png <br />
 You also need an announcement image egghunt_announcement_image.png.* <br /> <br />
 
 Participants have to react to the initial announcement message. After every reaction by default there is another 60 seconds cooldown while the announcement message waits for others to join by reacting to the message. You can modify the timeout_after_someone_reacts variable.  <br /> <br />
