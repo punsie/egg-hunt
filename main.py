@@ -57,7 +57,7 @@ async def raid_start(ctx):
         reaction, user = await client.wait_for("reaction_add", timeout=initial_timeout_announcement, check=lambda r,u: r.emoji == emoji)
         # Wait for up to 5 minutes or until 5 people have reacted
         while len(participants) < 500:
-            reaction, user = await client.wait_for("reaction_add", timeout=timeout_after_someone_reacts, check=lambda r, u: r.emoji ==emoji and u.id != egg_hunt_admin)
+            reaction, user = await client.wait_for("reaction_add", timeout=timeout_after_someone_reacts, check=lambda r, u: r.emoji ==emoji and u.id != egg_hunt_bot_id)
 
     except asyncio.TimeoutError:
         pass
