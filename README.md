@@ -6,7 +6,9 @@ A Python Discord Bot example for organising egg hunt events
 pip install -r requirements.txt
 ```
 <br />
-![image](https://user-images.githubusercontent.com/20566000/230964831-a90575b1-b2ca-4f5c-bf6d-01cedf0cc68a.png)
+
+![plot](https://user-images.githubusercontent.com/20566000/230964831-a90575b1-b2ca-4f5c-bf6d-01cedf0cc68a.png)
+
 <br />
 # How to start
 First you have to modify all variables to suit your needs in configuration.py. <br />
