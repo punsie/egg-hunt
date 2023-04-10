@@ -83,7 +83,7 @@ async def raid_start(ctx):
     embedraidVar.set_image(url="attachment://egghunt_announcement_image.png")
     embedraidVar.add_field(name=f'Number of participants:',value=f'`{len(participants)}`',inline = False)
     embedraidVar.add_field(name=f'Conditions satisfied:',value='`True`',inline = False)
-    embedraidVar.add_field(name=f'Rules:',value='You have to find the eggs messages from the `Egg Hunt Bot` that appear in different channels inside the Strange Clan discord (no private messages) and react to the 🥚 Egg emoji. Only the first reaction (after the bot) will counts as a point!',inline = False)
+    embedraidVar.add_field(name=f'Rules:',value='You have to find the eggs messages from the `Egg Hunt Bot` that appear in different channels inside the discord server (no private messages) and react to the 🥚 Egg emoji. Only the first reaction (after the bot) will counts as a point!',inline = False)
     await raid_msg.edit(content="",embed = embedraidVar)
 
 
